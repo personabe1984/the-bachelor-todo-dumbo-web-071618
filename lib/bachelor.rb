@@ -1,5 +1,10 @@
 def get_first_name_of_season_winner(data, season)
   # Need to return first name of that season winner
+  data.each do |seasons, season_data|
+    if seasons == season
+      puts seasons 
+    end
+  end
   
 end
 
@@ -53,3 +58,6 @@ test_hash = {
     }
   ]
 }
+
+
+print get_first_name_of_season_winner(test_hash, "season 29")
