@@ -1,6 +1,6 @@
 def get_first_name_of_season_winner(data, season)
   # Need to return first name of that season winner
-  data.each do |seasons, season_data|
+  data[season].each do |seasons, season_data|
     puts seasons.is_a?()
     puts 
     if seasons == season
