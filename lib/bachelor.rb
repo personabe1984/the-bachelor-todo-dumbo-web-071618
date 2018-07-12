@@ -42,8 +42,11 @@ end
 def get_average_age_for_season(data, season)
   # code here
   sum = 0
-  divisor 
+  divisor = data[season].length
   data[season].each do |contestants_data|
+    sum += contestants_data["age"]
+  end
+  return sum / divisor
 end
 
 
