@@ -48,6 +48,7 @@ def get_average_age_for_season(data, season)
   end
   puts sum 
   puts divisor
+  puts sum / divisor
   return (sum / divisor).round(0)
 end
 
