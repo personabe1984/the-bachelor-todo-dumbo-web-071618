@@ -1,7 +1,10 @@
 def get_first_name_of_season_winner(data, season)
   # Need to return first name of that season winner
-  puts data
-  puts season
+  data[season].each do |contestant_hash|
+    if contestant_hash["status"].downcase == "winner"
+      return contestant_hash["name"].split(" ").first
+    end
+  end
 end
 
 def get_contestant_name(data, occupation)
