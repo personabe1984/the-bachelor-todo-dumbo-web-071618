@@ -1,7 +1,6 @@
 def get_first_name_of_season_winner(data, season)
   # Need to return first name of that season winner
   puts data[season]
-  
 end
 
 def get_contestant_name(data, occupation)
