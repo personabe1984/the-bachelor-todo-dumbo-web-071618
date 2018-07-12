@@ -23,8 +23,8 @@ def get_average_age_for_season(data, season)
   # code here
 end
 
-=begin
-test_hash = { 
+
+test = { 
   "season 30": [
     {
       "name":      "Beth Smalls",
@@ -59,6 +59,4 @@ test_hash = {
   ]
 }
 
-
-get_first_name_of_season_winner(test_hash, :"season 29")
-=end
+get_first_name_of_season_winner(test, :"season 29")
