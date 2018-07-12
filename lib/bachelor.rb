@@ -9,9 +9,8 @@ end
 
 def get_contestant_name(data, occupation)
   data.each do |seasons, contestants|
-    puts contestants.is_a?(Array)
     contestants.each do |contestants_data|
-      puts contestants_data.is_a?(Hash)
+      contestants_data[""]
     end
   end
 end
