@@ -60,4 +60,4 @@ test_hash = {
 }
 
 
-print get_first_name_of_season_winner(test_hash, "season 29")
+get_first_name_of_season_winner(test_hash, "season 29")
